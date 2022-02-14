@@ -10,7 +10,7 @@ namespace GADE1B2022
     {
         private int goldDrop;
         Random rnd = new Random();
-        goldDrop = rnd.NextInt(2,3); // ??
+        goldDrop = rnd.NextInt(2,3); // ???
         public Item GoldDrop
         {
             get { return goldDrop } // 
